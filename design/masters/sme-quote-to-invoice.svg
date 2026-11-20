@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 420 72" width="420" height="72">
+  <title>sme-quote-to-invoice glyphs</title>
+  <desc>Five stage glyphs for the SME daily-work scene: customer enquiry, quote, human
+  approval, order, invoice. Exported per stage to public/illustrations/sme-*.svg and shown
+  in HTML stage cards in src/features/industries/SmeWorkflowSection.tsx. Illustrative.</desc>
+
+  <!-- ENQUIRY: a customer message -->
+  <g inkscape:groupmode="layer" inkscape:label="enquiry" id="tl-sme-quote-to-invoice-request">
+    <rect x="8" y="10" width="52" height="40" rx="12" fill="#f7dfce" stroke="#3a1c0d" stroke-width="2"/>
+    <path d="M 22 50 L 22 60 L 34 50 Z" fill="#f7dfce" stroke="#3a1c0d" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 20 24 H 48 M 20 32 H 42" stroke="#3a1c0d" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- QUOTE: a priced document -->
+  <g inkscape:groupmode="layer" inkscape:label="quote" id="tl-sme-quote-to-invoice-quote">
+    <rect x="96" y="8" width="42" height="52" rx="7" fill="#dfe9f1" stroke="#3a1c0d" stroke-width="2"/>
+    <path d="M 104 20 H 126 M 104 28 H 130 M 104 36 H 122" stroke="#3a1c0d" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="127" cy="46" r="10" fill="#ff5a00"/>
+    <path d="M 123 46 h 8 M 127 42 v 8" stroke="#fffdfc" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- APPROVAL: the human gate -->
+  <g inkscape:groupmode="layer" inkscape:label="approval" id="tl-sme-quote-to-invoice-approval">
+    <circle cx="202" cy="34" r="24" fill="#ffffff" stroke="#3a1c0d" stroke-width="2"/>
+    <circle cx="202" cy="28" r="7" fill="#0e0d0c"/>
+    <path d="M 189 48 A 13 13 0 0 1 215 48 Z" fill="#0e0d0c"/>
+    <g transform="translate(219,19)">
+      <circle r="11" fill="#1f6f47"/>
+      <path d="M -4.6 0 L -1.4 3.4 L 5.2 -4.6" fill="none" stroke="#fffdfc" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- ORDER: a confirmed package -->
+  <g inkscape:groupmode="layer" inkscape:label="order" id="tl-sme-quote-to-invoice-order">
+    <path d="M 284 22 L 304 12 L 324 22 L 324 46 L 304 56 L 284 46 Z" fill="#e0ece6" stroke="#3a1c0d" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M 284 22 L 304 32 L 324 22 M 304 32 V 56" fill="none" stroke="#3a1c0d" stroke-width="2" stroke-linejoin="round"/>
+  </g>
+
+  <!-- INVOICE: a settled invoice -->
+  <g inkscape:groupmode="layer" inkscape:label="invoice" id="tl-sme-quote-to-invoice-invoice">
+    <rect x="372" y="8" width="42" height="52" rx="7" fill="#e9e1f1" stroke="#3a1c0d" stroke-width="2"/>
+    <path d="M 380 20 H 402 M 380 28 H 402 M 380 36 H 396" stroke="#3a1c0d" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(400,46)">
+      <circle r="9" fill="#1f6f47"/>
+      <path d="M -3.6 0 L -1 2.6 L 4.2 -3.6" fill="none" stroke="#fffdfc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

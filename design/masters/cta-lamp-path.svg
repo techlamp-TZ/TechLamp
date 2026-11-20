@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 460 320" width="460" height="320">
+  <title>cta-lamp-path</title>
+  <desc>Artwork master for the closing CTA visual: the signal's path resolves into a lit
+  lamp beside the consultation action. Integrated inline (white/cream on the orange CTA)
+  in src/features/home/CtaSection.tsx; this file is the editable record. Drawn here on a
+  neutral ground for editing; runtime strokes are white/cream. Resting state shown.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="path" id="tl-cta-lamp-path-path-layer">
+    <path id="tl-cta-lamp-path-path" d="M 40 300 C 150 285, 240 150, 300 60" fill="none"
+          stroke="#c84300" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="40" cy="300" r="5" fill="#ff5a00"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="lamp" id="tl-cta-lamp-path-lamp">
+    <circle cx="300" cy="54" r="70" fill="#ffd7a8" opacity="0.5"/>
+    <path d="M 300 -4 A 42 42 0 0 1 322 78 L 278 78 A 42 42 0 0 1 300 -4 Z" fill="#fffdfc" stroke="#682800" stroke-width="3"/>
+    <path d="M 287 28 L 306 50 L 292 56 L 310 78" fill="none" stroke="#ff6200" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="282" y="80" width="36" height="9" rx="4.5" fill="#682800"/>
+    <rect x="286" y="92" width="28" height="9" rx="4.5" fill="#682800"/>
+  </g>
+  <circle id="tl-cta-lamp-path-signal" cx="300" cy="60" r="6" fill="#ff5a00"/>
+</svg>

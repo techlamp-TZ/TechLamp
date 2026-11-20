@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 60 420" width="60" height="420">
+  <title>platform-stack signal spine</title>
+  <desc>Artwork master for the enterprise-stack connective spine: one signal rises from the
+  cloud foundation (bottom source) up through six connected layers to intelligence (top).
+  Integrated inline (layout-driven nodes) in src/components/diagrams/PlatformStack.tsx;
+  this file is the editable record. Resting state shown (signal at top).</desc>
+  <g inkscape:groupmode="layer" inkscape:label="rail" id="tl-platform-stack-track">
+    <rect x="29" y="30" width="2" height="360" rx="1" fill="#e3dcd4"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="layers" id="tl-platform-stack-layers">
+    <!-- top = people/workplace (signal arrived) -->
+    <circle cx="30" cy="30" r="6" fill="#ff5a00" stroke="#ff5a00" stroke-width="2"/>
+    <circle cx="30" cy="102" r="5" fill="#fffdfc" stroke="#d3c7b8" stroke-width="2"/>
+    <circle cx="30" cy="174" r="5" fill="#fffdfc" stroke="#d3c7b8" stroke-width="2"/>
+    <circle cx="30" cy="246" r="5" fill="#fffdfc" stroke="#d3c7b8" stroke-width="2"/>
+    <circle cx="30" cy="318" r="5" fill="#fffdfc" stroke="#d3c7b8" stroke-width="2"/>
+    <!-- bottom = cloud foundation (source) -->
+    <circle id="tl-platform-stack-signal" cx="30" cy="390" r="6" fill="#ff5a00"/>
+  </g>
+</svg>

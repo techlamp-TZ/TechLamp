@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 1000 210" width="1000" height="210">
+  <title>Business at every stage</title>
+  <desc>One connected system shown at four scales — startup, small business, medium company, large enterprise — each with an orange signal and a visible human approval. Company size changes the scale, not the access.</desc>
+
+  <!-- ========== STARTUP: a first connection ========== -->
+  <g inkscape:groupmode="layer" inkscape:label="startup" id="tl-business-at-every-stage-startup">
+    <rect x="10" y="10" width="230" height="190" rx="18" fill="#fffdfc" stroke="#efe7dd" stroke-width="1.5"/>
+    <!-- rail -->
+    <path d="M 78 132 H 172" fill="none" stroke="#e3dcd4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 78 132 H 120" fill="none" stroke="#ff5a00" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <!-- founder node -->
+    <g transform="translate(78,132)">
+      <circle r="16" fill="#f7dfce" stroke="#3a1c0d" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="4.5" fill="#0e0d0c"/>
+      <path d="M -8 8 A 8.5 8.5 0 0 1 8 8 Z" fill="#0e0d0c"/>
+    </g>
+    <!-- first tool: a small screen with a rising line -->
+    <g transform="translate(150,96)">
+      <rect x="0" y="0" width="56" height="40" rx="7" fill="#ffffff" stroke="#e3dcd4" stroke-width="1.8"/>
+      <path d="M 10 30 L 22 22 L 32 26 L 46 12" fill="none" stroke="#a93800" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- signal -->
+    <circle cx="120" cy="132" r="6" fill="#ff5a00"/>
+    <!-- lamp source -->
+    <g transform="translate(125,52)">
+      <circle r="15" fill="#ffd7a8" opacity="0.55"/>
+      <circle r="6.5" fill="#ff6200"/>
+      <path d="M -3 -2 L 1.5 1 L -2 2.5 L 2.5 5" fill="none" stroke="#fffdfc" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- ========== SMALL BUSINESS: a connected daily chain ========== -->
+  <g inkscape:groupmode="layer" inkscape:label="small" id="tl-business-at-every-stage-small">
+    <rect x="258" y="10" width="230" height="190" rx="18" fill="#fffdfc" stroke="#efe7dd" stroke-width="1.5"/>
+    <!-- rail across three steps -->
+    <path d="M 300 120 H 446" fill="none" stroke="#e3dcd4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 300 120 H 350" fill="none" stroke="#ff5a00" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <!-- enquiry / quote / invoice nodes -->
+    <circle cx="300" cy="120" r="13" fill="#dfe9f1" stroke="#3a1c0d" stroke-width="2"/>
+    <circle cx="373" cy="120" r="13" fill="#f7dfce" stroke="#3a1c0d" stroke-width="2"/>
+    <circle cx="446" cy="120" r="13" fill="#e0ece6" stroke="#3a1c0d" stroke-width="2"/>
+    <!-- tiny glyphs -->
+    <path d="M 294 120 H 306 M 294 116 H 303" stroke="#3a1c0d" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 367 115 H 379 M 367 120 H 379 M 367 125 H 375" stroke="#3a1c0d" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M 440 114 h 12 v 12 h -12 z" fill="none" stroke="#3a1c0d" stroke-width="1.6"/>
+    <!-- signal pausing before approval -->
+    <circle cx="350" cy="120" r="6" fill="#ff5a00"/>
+    <!-- person approval above the quote -->
+    <g transform="translate(373,66)">
+      <circle r="15" fill="#ffffff" stroke="#3a1c0d" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="4.2" fill="#0e0d0c"/>
+      <path d="M -7.5 7.5 A 8 8 0 0 1 7.5 7.5 Z" fill="#0e0d0c"/>
+      <g transform="translate(11,-11)"><circle r="7" fill="#1f6f47"/><path d="M -3 0 L -0.8 2.2 L 3.4 -3" fill="none" stroke="#fffdfc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+    <path d="M 373 81 V 107" fill="none" stroke="#cfe3d6" stroke-width="2" stroke-dasharray="3 4"/>
+  </g>
+
+  <!-- ========== MEDIUM: teams share one view ========== -->
+  <g inkscape:groupmode="layer" inkscape:label="medium" id="tl-business-at-every-stage-medium">
+    <rect x="506" y="10" width="230" height="190" rx="18" fill="#fffdfc" stroke="#efe7dd" stroke-width="1.5"/>
+    <!-- spokes to a shared hub -->
+    <g stroke="#e3dcd4" stroke-width="3" stroke-linecap="round">
+      <path d="M 621 105 L 560 64"/><path d="M 621 105 L 682 64"/><path d="M 621 105 L 560 150"/><path d="M 621 105 L 682 150"/>
+    </g>
+    <path d="M 621 105 L 560 64" stroke="#ff5a00" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <!-- team nodes: sales / finance / operations -->
+    <circle cx="560" cy="64" r="12" fill="#f7dfce" stroke="#3a1c0d" stroke-width="2"/>
+    <circle cx="682" cy="64" r="12" fill="#dfe9f1" stroke="#3a1c0d" stroke-width="2"/>
+    <circle cx="560" cy="150" r="12" fill="#e0ece6" stroke="#3a1c0d" stroke-width="2"/>
+    <!-- manager approval node -->
+    <g transform="translate(682,150)">
+      <circle r="14" fill="#ffffff" stroke="#3a1c0d" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="4" fill="#0e0d0c"/>
+      <path d="M -7 7 A 7.5 7.5 0 0 1 7 7 Z" fill="#0e0d0c"/>
+      <g transform="translate(10,-10)"><circle r="6.5" fill="#1f6f47"/><path d="M -2.8 0 L -0.7 2 L 3.2 -2.8" fill="none" stroke="#fffdfc" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+    <!-- shared hub (lamp view) -->
+    <g transform="translate(621,105)">
+      <circle r="22" fill="#ffd7a8" opacity="0.5"/>
+      <circle r="15" fill="#fffdfc" stroke="#682800" stroke-width="2"/>
+      <path d="M -6 -5 L 2 2 L -4 4 L 5 9" fill="none" stroke="#ff6200" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- ========== ENTERPRISE: a governed network ========== -->
+  <g inkscape:groupmode="layer" inkscape:label="enterprise" id="tl-business-at-every-stage-enterprise">
+    <rect x="754" y="10" width="230" height="190" rx="18" fill="#fffdfc" stroke="#efe7dd" stroke-width="1.5"/>
+    <!-- outer governed nodes -->
+    <g stroke="#e3dcd4" stroke-width="2.4" stroke-linecap="round" fill="none">
+      <path d="M 869 105 L 804 52"/><path d="M 869 105 L 934 52"/><path d="M 869 105 L 790 118"/>
+      <path d="M 869 105 L 948 118"/><path d="M 869 105 L 824 168"/><path d="M 869 105 L 914 168"/>
+    </g>
+    <path d="M 869 105 L 934 52" stroke="#ff5a00" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <g stroke-width="2" stroke="#3a1c0d">
+      <circle cx="804" cy="52" r="9" fill="#f7dfce"/>
+      <circle cx="934" cy="52" r="9" fill="#dfe9f1"/>
+      <circle cx="790" cy="118" r="9" fill="#e9e1f1"/>
+      <circle cx="948" cy="118" r="9" fill="#e0ece6"/>
+      <circle cx="824" cy="168" r="9" fill="#dfe9f1"/>
+      <circle cx="914" cy="168" r="9" fill="#f7dfce"/>
+    </g>
+    <circle cx="934" cy="52" r="5.5" fill="#ff5a00"/>
+    <!-- central governance hub: shield + check -->
+    <g transform="translate(869,105)">
+      <circle r="24" fill="#ffd7a8" opacity="0.45"/>
+      <path d="M 0 -20 L 17 -12 V 4 Q 17 18 0 24 Q -17 18 -17 4 V -12 Z" fill="#fffdfc" stroke="#682800" stroke-width="2"/>
+      <path d="M -7 1 L -1.5 7 L 9 -7" fill="none" stroke="#1f6f47" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 200 140" width="200" height="140">
+  <title>Agentic Engineering — an approved task moves through a bounded workflow</title>
+  <desc>Intent enters a bounded workflow; a person approves before an agent carries the action to completion.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="bg" id="layer-bg">
+    <rect x="0.75" y="0.75" width="198.5" height="138.5" rx="18" fill="#f4faf6" stroke="#dcefe3" stroke-width="1.5"/>
+  </g>
+  <!-- bounded workflow frame -->
+  <g inkscape:groupmode="layer" inkscape:label="relay" id="tl-engine-agentic-relay">
+    <rect x="22" y="48" width="156" height="44" rx="14" fill="none" stroke="#bfe0cc" stroke-width="1.5" stroke-dasharray="4 5"/>
+    <!-- rails -->
+    <path d="M 46 70 H 100 M 100 70 H 154" fill="none" stroke="#cfe3d6" stroke-width="3" stroke-linecap="round"/>
+    <path id="tl-engine-agentic-flow" d="M 46 70 H 82" fill="none" stroke="#ff5a00" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"/>
+    <!-- intent node -->
+    <g transform="translate(46,70)">
+      <circle r="11" fill="#ffffff" stroke="#1f6f47" stroke-width="2"/>
+      <path d="M -4.5 -2 H 4.5 M -4.5 2 H 2" stroke="#1f6f47" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="46" y="108" font-size="9" fill="#5b5855" text-anchor="middle" font-family="'JetBrains Mono', monospace">INTENT</text>
+    <!-- signal pausing at approval -->
+    <circle id="tl-engine-agentic-signal" cx="82" cy="70" r="5.5" fill="#ff5a00"/>
+  </g>
+  <!-- human approval (the gate) -->
+  <g inkscape:groupmode="layer" inkscape:label="approval" id="tl-engine-agentic-approval">
+    <g transform="translate(100,70)">
+      <circle r="14" fill="#e0ece6" stroke="#1f6f47" stroke-width="2"/>
+      <circle cx="0" cy="-4" r="4" fill="#0e0d0c"/>
+      <path d="M -7 7 A 7.5 7.5 0 0 1 7 7 Z" fill="#0e0d0c"/>
+      <g transform="translate(10,-10)">
+        <circle r="7" fill="#1f6f47"/>
+        <path d="M -3 0 L -0.8 2.2 L 3.4 -3" fill="none" stroke="#fffdfc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+    <text x="100" y="108" font-size="9" fill="#5b5855" text-anchor="middle" font-family="'JetBrains Mono', monospace">APPROVE</text>
+  </g>
+  <!-- action node -->
+  <g inkscape:groupmode="layer" inkscape:label="action" id="layer-action">
+    <g transform="translate(154,70)">
+      <circle r="11" fill="#1f6f47"/>
+      <path d="M 1.5 -5 L -3.5 1 H 0.5 L -1.5 5 L 4 -1 H 0 Z" fill="#fffdfc"/>
+    </g>
+    <text x="154" y="108" font-size="9" fill="#5b5855" text-anchor="middle" font-family="'JetBrains Mono', monospace">ACTION</text>
+  </g>
+</svg>

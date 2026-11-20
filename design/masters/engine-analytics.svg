@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 200 140" width="200" height="140">
+  <title>Business Analytics — scattered information becomes a useful pattern</title>
+  <desc>Scattered data points on the left resolve into a clear rising trend on the right, read through a lens.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="bg" id="layer-bg">
+    <rect x="0.75" y="0.75" width="198.5" height="138.5" rx="18" fill="#fdf6f1" stroke="#f3e3d3" stroke-width="1.5"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="scatter" id="tl-engine-analytics-scatter">
+    <circle cx="34" cy="44" r="3.2" fill="#b9b1a8"/>
+    <circle cx="52" cy="70" r="3.2" fill="#b9b1a8"/>
+    <circle cx="40" cy="96" r="3.2" fill="#b9b1a8"/>
+    <circle cx="66" cy="52" r="3.2" fill="#c9b7a6"/>
+    <circle cx="72" cy="86" r="3.2" fill="#c9b7a6"/>
+    <circle cx="58" cy="108" r="3.2" fill="#b9b1a8"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="pattern" id="tl-engine-analytics-pattern">
+    <!-- axes -->
+    <path d="M 96 28 V 116 H 180" fill="none" stroke="#d8cfc4" stroke-width="2" stroke-linecap="round"/>
+    <!-- clean rising trend -->
+    <path id="tl-engine-analytics-trend" d="M 104 104 L 124 92 L 142 96 L 160 66 L 174 48"
+          fill="none" stroke="#a93800" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="124" cy="92" r="2.8" fill="#c84300"/>
+    <circle cx="160" cy="66" r="2.8" fill="#c84300"/>
+    <!-- leading signal -->
+    <circle id="tl-engine-analytics-signal" cx="174" cy="48" r="5.5" fill="#ff5a00"/>
+    <circle cx="172.4" cy="46.4" r="1.9" fill="#ffd7a8"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="lens" id="tl-engine-analytics-lens">
+    <circle cx="70" cy="74" r="26" fill="#ff5a00" opacity="0.06"/>
+    <circle cx="70" cy="74" r="26" fill="none" stroke="#c84300" stroke-width="2" opacity="0.5"/>
+    <path d="M 88 92 L 100 104" stroke="#c84300" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

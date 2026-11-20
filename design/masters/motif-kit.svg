@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.0.dtd"
+     viewBox="0 0 960 680" width="960" height="680" font-family="'JetBrains Mono', monospace">
+  <sodipodi:namedview inkscape:document-units="px" showgrid="false"/>
+  <title>TechLamp motif kit</title>
+  <desc>Shared authoring vocabulary: signal spark, connective rail, pulse ring, lamp, approval handoff, and the four functional tone-chips. Authoring source — not shipped whole.</desc>
+
+  <defs>
+    <radialGradient id="tl-spark-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff7a2e" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#ff5a00" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ff5a00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tl-lamp-glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#ffd7a8" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#f7dfce" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f7dfce" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tl-lamp-bulb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdfc"/>
+      <stop offset="1" stop-color="#ffe9d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===================== BACKGROUND ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="background" id="layer-bg">
+    <rect x="0" y="0" width="960" height="680" fill="#f9f1e8"/>
+    <text x="48" y="56" font-size="22" font-weight="700" fill="#0e0d0c" font-family="'JetBrains Mono', monospace">TECHLAMP · MOTIF KIT</text>
+    <text x="48" y="78" font-size="12" letter-spacing="0.08em" fill="#5b5855">SHARED VISUAL VOCABULARY · LIGHT AS INTELLIGENCE</text>
+    <line x1="48" y1="96" x2="912" y2="96" stroke="#e3dcd4" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===================== 01 SPARK ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="spark" id="layer-spark">
+    <g id="tl-motif-spark" transform="translate(150,190)">
+      <title>Signal spark — the persistent orange subject that travels the whole site</title>
+      <circle id="tl-motif-spark-glow" cx="0" cy="0" r="34" fill="url(#tl-spark-glow)"/>
+      <path id="tl-motif-spark-tail" d="M -58 3 Q -26 0 -10 0 L -10 -4 Q -30 -2 -58 -3 Z" fill="#ff5a00" opacity="0.35"/>
+      <circle id="tl-motif-spark-core" cx="0" cy="0" r="8" fill="#ff5a00"/>
+      <circle cx="-2.4" cy="-2.4" r="2.6" fill="#ffd7a8"/>
+    </g>
+    <text x="150" y="268" font-size="12" font-weight="700" fill="#3a1c0d" text-anchor="middle">SPARK</text>
+    <text x="150" y="286" font-size="10" fill="#5b5855" text-anchor="middle">the signal</text>
+  </g>
+
+  <!-- ===================== 02 RAIL ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="rail" id="layer-rail">
+    <g id="tl-motif-rail" transform="translate(390,190)">
+      <title>Connective rail — the track the signal runs along between stages</title>
+      <path id="tl-motif-rail-track" d="M -72 0 H 72" fill="none" stroke="#e3dcd4" stroke-width="4" stroke-linecap="round"/>
+      <path id="tl-motif-rail-flow" d="M -72 0 H 18" fill="none" stroke="#ff5a00" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+      <circle id="tl-motif-rail-node-a" cx="-72" cy="0" r="5.5" fill="#fffdfc" stroke="#3a1c0d" stroke-width="2"/>
+      <circle id="tl-motif-rail-node-b" cx="72" cy="0" r="5.5" fill="#fffdfc" stroke="#3a1c0d" stroke-width="2"/>
+      <circle id="tl-motif-rail-signal" cx="18" cy="0" r="6.5" fill="#ff5a00"/>
+    </g>
+    <text x="390" y="268" font-size="12" font-weight="700" fill="#3a1c0d" text-anchor="middle">RAIL</text>
+    <text x="390" y="286" font-size="10" fill="#5b5855" text-anchor="middle">the connection</text>
+  </g>
+
+  <!-- ===================== 03 PULSE RING ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="pulse-ring" id="layer-ring">
+    <g id="tl-motif-ring" transform="translate(630,190)">
+      <title>Pulse ring — marks the active node</title>
+      <circle id="tl-motif-ring-2" cx="0" cy="0" r="34" fill="none" stroke="#ff5a00" stroke-width="1.5" opacity="0.22"/>
+      <circle id="tl-motif-ring-1" cx="0" cy="0" r="22" fill="none" stroke="#ff5a00" stroke-width="1.5" opacity="0.5"/>
+      <circle id="tl-motif-ring-node" cx="0" cy="0" r="9" fill="#ff5a00"/>
+      <circle cx="-2.6" cy="-2.6" r="2.8" fill="#ffd7a8"/>
+    </g>
+    <text x="630" y="268" font-size="12" font-weight="700" fill="#3a1c0d" text-anchor="middle">PULSE</text>
+    <text x="630" y="286" font-size="10" fill="#5b5855" text-anchor="middle">active node</text>
+  </g>
+
+  <!-- ===================== 04 LAMP ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="lamp" id="layer-lamp">
+    <g id="tl-motif-lamp" transform="translate(870,186)">
+      <title>Lamp — the brand light source; echoes the TechLamp mark (bulb, filament, base)</title>
+      <circle id="tl-motif-lamp-glow" cx="0" cy="-6" r="52" fill="url(#tl-lamp-glow)"/>
+      <path id="tl-motif-lamp-bulb" d="M 0 -42 A 30 30 0 0 1 16 14 L -16 14 A 30 30 0 0 1 0 -42 Z" fill="url(#tl-lamp-bulb)" stroke="#682800" stroke-width="2.4"/>
+      <path id="tl-motif-lamp-filament" d="M -9 -24 L 4 -8 L -6 -4 L 7 12" fill="none" stroke="#ff6200" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect id="tl-motif-lamp-base-1" x="-13" y="16" width="26" height="7" rx="3.5" fill="#682800"/>
+      <rect id="tl-motif-lamp-base-2" x="-10" y="25" width="20" height="7" rx="3.5" fill="#682800"/>
+    </g>
+    <text x="870" y="268" font-size="12" font-weight="700" fill="#3a1c0d" text-anchor="middle">LAMP</text>
+    <text x="870" y="286" font-size="10" fill="#5b5855" text-anchor="middle">the source</text>
+  </g>
+
+  <!-- ===================== 05 APPROVAL HANDOFF (signature moment) ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="approval" id="layer-approval">
+    <line x1="48" y1="320" x2="912" y2="320" stroke="#e3dcd4" stroke-width="1.5"/>
+    <text x="48" y="350" font-size="12" letter-spacing="0.08em" fill="#5b5855">SIGNATURE MOMENT — THE APPROVAL HANDOFF (JUDGMENT STAYS HUMAN)</text>
+    <g id="tl-motif-approval" transform="translate(0,430)">
+      <title>Approval handoff — the signal pauses at a person, who approves before action continues</title>
+      <!-- incoming rail -->
+      <path d="M 120 0 H 420" fill="none" stroke="#e3dcd4" stroke-width="4" stroke-linecap="round"/>
+      <path id="tl-motif-approval-in" d="M 120 0 H 300" fill="none" stroke="#ff5a00" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 10"/>
+      <circle cx="120" cy="0" r="5.5" fill="#fffdfc" stroke="#3a1c0d" stroke-width="2"/>
+      <!-- signal pausing at the person -->
+      <circle id="tl-motif-approval-signal" cx="300" cy="0" r="6.5" fill="#ff5a00"/>
+      <!-- person node -->
+      <g id="tl-motif-approval-person" transform="translate(450,0)">
+        <circle cx="0" cy="0" r="30" fill="#e9e1f1" stroke="#3a1c0d" stroke-width="2"/>
+        <circle cx="0" cy="-7" r="8" fill="#3a1c0d"/>
+        <path d="M -14 14 A 15 15 0 0 1 14 14 Z" fill="#3a1c0d"/>
+        <!-- approval check badge -->
+        <g transform="translate(20,-20)">
+          <circle cx="0" cy="0" r="12" fill="#1f6f47"/>
+          <path d="M -5 0 L -1.5 4 L 6 -5" fill="none" stroke="#fffdfc" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+      </g>
+      <!-- outgoing action rail -->
+      <path d="M 480 0 H 792" fill="none" stroke="#e3dcd4" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="792" cy="0" r="5.5" fill="#fffdfc" stroke="#3a1c0d" stroke-width="2"/>
+      <!-- outcome node -->
+      <g transform="translate(792,0)">
+        <circle cx="0" cy="0" r="7" fill="#1f6f47"/>
+      </g>
+      <text x="120" y="34" font-size="10" fill="#5b5855">SIGNAL</text>
+      <text x="450" y="52" font-size="10" fill="#5b5855" text-anchor="middle">APPROVE</text>
+      <text x="792" y="34" font-size="10" fill="#5b5855" text-anchor="middle">ACTION</text>
+    </g>
+  </g>
+
+  <!-- ===================== 06 FUNCTION TONE-CHIPS ===================== -->
+  <g inkscape:groupmode="layer" inkscape:label="chips" id="layer-chips">
+    <line x1="48" y1="520" x2="912" y2="520" stroke="#e3dcd4" stroke-width="1.5"/>
+    <text x="48" y="550" font-size="12" letter-spacing="0.08em" fill="#5b5855">FUNCTIONAL TONE-CHIPS — bind a pastel to a kind of work (verify semantics vs. live tokens)</text>
+
+    <g id="tl-motif-chip-peach" transform="translate(150,600)">
+      <title>Analytics / people — peach</title>
+      <rect x="-36" y="-36" width="72" height="72" rx="16" fill="#f7dfce" stroke="#e3dcd4" stroke-width="1.5"/>
+      <path d="M -16 14 L -4 -2 L 6 8 L 18 -12" fill="none" stroke="#3a1c0d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="18" cy="-12" r="3" fill="#ff5a00"/>
+      <text x="0" y="56" font-size="10.5" font-weight="700" fill="#3a1c0d" text-anchor="middle">ANALYTICS</text>
+    </g>
+
+    <g id="tl-motif-chip-lilac" transform="translate(390,600)">
+      <title>Data / models — lilac</title>
+      <rect x="-36" y="-36" width="72" height="72" rx="16" fill="#e9e1f1" stroke="#e3dcd4" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-12" rx="16" ry="6" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <path d="M -16 -12 V 12 A 16 6 0 0 0 16 12 V -12" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <path d="M -16 0 A 16 6 0 0 0 16 0" fill="none" stroke="#3a1c0d" stroke-width="2.2" opacity="0.5"/>
+      <text x="0" y="56" font-size="10.5" font-weight="700" fill="#3a1c0d" text-anchor="middle">DATA</text>
+    </g>
+
+    <g id="tl-motif-chip-sky" transform="translate(630,600)">
+      <title>Operations — sky</title>
+      <rect x="-36" y="-36" width="72" height="72" rx="16" fill="#dfe9f1" stroke="#e3dcd4" stroke-width="1.5"/>
+      <circle cx="-12" cy="-10" r="5" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <circle cx="12" cy="-10" r="5" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <circle cx="0" cy="12" r="5" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <path d="M -12 -5 L 0 7 M 12 -5 L 0 7" stroke="#3a1c0d" stroke-width="2" stroke-linecap="round"/>
+      <text x="0" y="56" font-size="10.5" font-weight="700" fill="#3a1c0d" text-anchor="middle">OPERATIONS</text>
+    </g>
+
+    <g id="tl-motif-chip-mint" transform="translate(870,600)">
+      <title>Agents / automation — mint</title>
+      <rect x="-36" y="-36" width="72" height="72" rx="16" fill="#e0ece6" stroke="#e3dcd4" stroke-width="1.5"/>
+      <rect x="-13" y="-14" width="26" height="22" rx="5" fill="none" stroke="#3a1c0d" stroke-width="2.2"/>
+      <circle cx="-5" cy="-3" r="2.4" fill="#3a1c0d"/>
+      <circle cx="5" cy="-3" r="2.4" fill="#3a1c0d"/>
+      <path d="M 0 -14 V -22" stroke="#3a1c0d" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="0" cy="-24" r="2.6" fill="#ff5a00"/>
+      <text x="0" y="56" font-size="10.5" font-weight="700" fill="#3a1c0d" text-anchor="middle">AGENTS</text>
+    </g>
+  </g>
+</svg>

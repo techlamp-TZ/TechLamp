@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 400 24" width="400" height="24">
+  <title>loop-rail</title>
+  <desc>Artwork master for the intelligence-loop feedback rail: outcome returns, passes a
+  human-approval checkpoint, and is re-lit as the next signal. Animation (travelling
+  signal) lives inline in src/components/diagrams/IntelligenceLoop.tsx; this file is the
+  editable record. Resting state shown.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="track" id="tl-loop-rail-track">
+    <rect x="4" y="11" width="392" height="2" rx="1" fill="#e3dcd4"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="nodes" id="layer-nodes">
+    <!-- source: next signal re-lit here -->
+    <circle cx="4" cy="12" r="4.5" fill="#ff5a00"/>
+    <!-- travelling signal -->
+    <circle id="tl-loop-rail-signal" cx="120" cy="12" r="3.5" fill="#ff5a00"/>
+    <!-- human-approval checkpoint -->
+    <g id="tl-loop-rail-approval" transform="translate(280,12)">
+      <circle r="9" fill="#1f6f47"/>
+      <path d="M -4 0 L -1.2 3 L 4.6 -4" fill="none" stroke="#fffdfc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- outcome -->
+    <circle cx="396" cy="12" r="4.5" fill="#fffdfc" stroke="#1f6f47" stroke-width="2"/>
+  </g>
+</svg>

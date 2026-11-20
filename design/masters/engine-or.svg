@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 200 140" width="200" height="140">
+  <title>Operations Research — feasible alternatives become a considered choice</title>
+  <desc>A lattice of feasible options with one route highlighted from start to a chosen end.</desc>
+  <g inkscape:groupmode="layer" inkscape:label="bg" id="layer-bg">
+    <rect x="0.75" y="0.75" width="198.5" height="138.5" rx="18" fill="#f5f8fd" stroke="#dde6f5" stroke-width="1.5"/>
+  </g>
+  <!-- faint lattice of feasible options -->
+  <g inkscape:groupmode="layer" inkscape:label="options" id="tl-engine-or-options">
+    <g fill="none" stroke="#c4d2e6" stroke-width="1.5">
+      <path d="M 40 40 H 160 M 40 70 H 160 M 40 100 H 160"/>
+      <path d="M 40 40 L 100 70 L 160 100 M 160 40 L 100 70 L 40 100"/>
+    </g>
+    <g fill="#ffffff" stroke="#9db4d4" stroke-width="1.8">
+      <circle cx="40" cy="40" r="4.5"/><circle cx="100" cy="40" r="4.5"/><circle cx="160" cy="40" r="4.5"/>
+      <circle cx="40" cy="70" r="4.5"/><circle cx="160" cy="70" r="4.5"/>
+      <circle cx="40" cy="100" r="4.5"/><circle cx="100" cy="100" r="4.5"/><circle cx="160" cy="100" r="4.5"/>
+    </g>
+  </g>
+  <!-- the chosen route -->
+  <g inkscape:groupmode="layer" inkscape:label="choice" id="tl-engine-or-choice">
+    <path id="tl-engine-or-route" d="M 40 70 L 100 40 L 160 70" fill="none" stroke="#a93800" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="100" cy="40" r="6.5" fill="#dfe9f1" stroke="#2f5bbd" stroke-width="2"/>
+    <circle cx="40" cy="70" r="6" fill="#ff5a00"/>
+    <g transform="translate(160,70)">
+      <circle r="9" fill="#1f6f47"/>
+      <path d="M -4 0 L -1.2 3 L 4.6 -4" fill="none" stroke="#fffdfc" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

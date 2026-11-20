@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 560" width="1000" height="560" font-family="'JetBrains Mono', monospace">
+  <rect width="1000" height="560" fill="#f9f1e8"/>
+  <text x="40" y="44" font-size="20" font-weight="700" fill="#0e0d0c">PHASE 1 — ASSET CONTACT SHEET</text>
+  <text x="40" y="64" font-size="11" fill="#5b5855">engine spots (H2) · business-at-every-stage vignettes (H0A)</text>
+
+  <text x="40" y="96" font-size="11" font-weight="700" fill="#3a1c0d">THREE ENGINES</text>
+  <image xlink:href="../web/engine-analytics.svg" x="40"  y="104" width="286" height="200"/>
+  <image xlink:href="../web/engine-or.svg"        x="356" y="104" width="286" height="200"/>
+  <image xlink:href="../web/engine-agentic.svg"   x="672" y="104" width="286" height="200"/>
+  <text x="183" y="322" font-size="10" fill="#5b5855" text-anchor="middle">Business Analytics</text>
+  <text x="499" y="322" font-size="10" fill="#5b5855" text-anchor="middle">Operations Research</text>
+  <text x="815" y="322" font-size="10" fill="#5b5855" text-anchor="middle">Agentic Engineering</text>
+
+  <text x="40" y="364" font-size="11" font-weight="700" fill="#3a1c0d">BUSINESS AT EVERY STAGE</text>
+  <image xlink:href="../web/bes-startup.svg"    x="40"  y="372" width="220" height="150"/>
+  <image xlink:href="../web/bes-small.svg"      x="280" y="372" width="220" height="150"/>
+  <image xlink:href="../web/bes-medium.svg"     x="520" y="372" width="220" height="150"/>
+  <image xlink:href="../web/bes-enterprise.svg" x="760" y="372" width="220" height="150"/>
+  <text x="150" y="538" font-size="10" fill="#5b5855" text-anchor="middle">Startup</text>
+  <text x="390" y="538" font-size="10" fill="#5b5855" text-anchor="middle">Small business</text>
+  <text x="630" y="538" font-size="10" fill="#5b5855" text-anchor="middle">Medium company</text>
+  <text x="870" y="538" font-size="10" fill="#5b5855" text-anchor="middle">Large enterprise</text>
+</svg>
